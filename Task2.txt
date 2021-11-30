@@ -1,0 +1,6 @@
+#QUESTION 2
+disease = ["lung cancer","lung cancer(adenocarcinoma)","tuberculoma","granuloma","lung cancer(bronchioloalveolar cell carcinoma)","unknown","inflammatory mass","metastasis of colon cancer","pulmonary tuberculosis","sclerosing hemangioma","hamartoma","lung abscess","lung cancer(squamous cell carcinoma)","pulmonary hematoma","Inflammatory mass","susp. inflammatory mass","Cryptococcosis","lung cancer(large cell carcinoma)","pneumonia","lung cancer(small cell carcinoma)","organiging pneumonia","susp.tuberculoma","metastasis of uterine cancer","metastatic lung cancer","lung cancer(adenosquamous carcinoma)","organizing pneumonia","metastasis of ovarian cancer","susp. sclerosing hemangioma","calcified granuloma","susp. hamartoma","susp. lung metastasis","lung canceror metastasis"]
+number = [56,23,14,8,7,4,4,4,3,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+plt.pie('number',labels = 'disease',shadow = True,startangle = 45)
+plt.axis('equal')
+plt.legend(title = 'Patients')
